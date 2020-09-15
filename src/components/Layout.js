@@ -5,7 +5,7 @@ import "../App.css";
 const Layout = () => {
   return (
     <div className="layout-container">
-      <video src="/videos/video-1.mp4" autoPlay loop muted />
+      <video src="videos/video-1.mp4" autoPlay loop muted />
       <h1>LET'S EXPLORE</h1>
       <p>Never fear quarrels, but seek hazardous adventures.</p>
       <div className="layout-btns">

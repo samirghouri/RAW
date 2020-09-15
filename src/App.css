@@ -16,38 +16,30 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url("/images/img-2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.container {
+  position: relative;
+  text-align: center;
 }
 
-.products {
-  background-image: url("/images/img-1.jpg");
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.each-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+  margin: 0px auto;
 }
-
-.sign-up {
-  background-image: url("/images/img-8.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #fff;
   font-size: 100px;
 }
 
 @media screen and (max-width: 820px) {
-  home,
-  .services,
-  .products,
-  .sign-up {
+  .title {
     font-size: 3rem;
   }
 }

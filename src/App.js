@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="App">
-      <Router>
+      <Router basename={"/RAW"}>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
