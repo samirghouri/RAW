@@ -15,7 +15,7 @@ Concepts Learned:
     
 Final View:
   
-  ![alt text](https://github.com/samirghouri/RAW/blob/master/screenshots/Screenshot_2020-09-15 React App.jpg)
+  ![alt text](https://github.com/samirghouri/RAW/blob/master/screenshots/screenshot.jpg)
     
 To Run the application use:
 ###  `npm install`
